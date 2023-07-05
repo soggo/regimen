@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="hero-text">
-        <h2>GET I N THE SHAPE OF YOUR LIFE</h2>
+        <h2>GET IN THE SHAPE OF YOUR LIFE</h2>
         <h3>JOIN THE REVOLUTION</h3>
         <h3>GET THE FREE WORKOUT <span class="red">REGIMEN</span></h3>
     </div>
+    <div id="responseMessage" style="display: none;"></div> <!-- Add a div to display the response message -->
     <form id="emailForm" action="submit.php" method="post">
-        <input type="text" name="" id="name" placeholder="Enter your name" required>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
         <input type="email" id="emailInput" name="email" placeholder="Enter your email" required>
         <button type="submit">SUBSCRIBE</button>
-      </form> <form action=""></form>
+    </form>
+    <script src="script.js"></script> <!-- Include a JavaScript file to handle the form submission and response -->
 </body>
 </html>
