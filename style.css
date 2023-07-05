@@ -1,0 +1,85 @@
+body{
+    /* padding: 0 5%; */
+    width: 99%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/slider.webp');
+    background-size: cover;
+}
+
+.hero-text>h2{
+    color: white;
+    font-size: 4rem;
+}
+
+.hero-text>h3{
+    color: rgb(250, 237, 237);
+font-size: 3rem;
+}
+form{
+    display: flex;
+    gap: 10px;
+    /* width: 100%; */
+
+}
+
+#name{
+    width: 20rem;
+}
+input{  
+    width: 35rem;
+    height: 4rem;
+}
+
+.red{
+    color: orangered;
+}
+
+button{
+    border: none;
+    width: 9rem;
+    height: 4rem;
+    /* border-radius: 35px; */
+    font-size: x-large;
+    font-weight:700;
+    color: cadetblue;
+    background-color: none;
+    background-image: none;
+}
+
+button:hover{
+    opacity: 60%;
+}
+
+
+@media only screen and  (max-width: 767px) {
+    /* CSS styles for big screen phones */
+    /* Add your styles here */
+    body{
+        /* padding: 0 5%; */
+        width: 99%;
+        height: 99vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 3%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* width: 100%; */
+    }
+    #name{
+        width: 20rem;
+    }
+    input{    
+    width: 20rem;
+    height: 4rem;
+    }
+
+  }
