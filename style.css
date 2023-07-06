@@ -8,10 +8,11 @@ body{
     justify-content: center;
     background-image: url('images/slider.webp');
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero-text>h2{
-    color: white;
+    color: snow;
     font-size: 4rem;
 }
 .hidden{
@@ -22,8 +23,8 @@ body{
     color: black;
 }
 .hero-text>h3{
-    color: rgb(250, 237, 237);
-font-size: 3rem;
+    color: snow;
+    font-size: 3rem;
 }
 form{
     display: flex;
@@ -38,26 +39,30 @@ form{
 input{  
     width: 35rem;
     height: 4rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    background-color: snow
 }
 
 .red{
-    color: orangered;
+    color:  #f34e3a;;
 }
 
 button{
     border: none;
     width: 9rem;
     height: 4rem;
-    /* border-radius: 35px; */
-    font-size: x-large;
+    border-radius: 35px;
+    font-size: large;
     font-weight:700;
-    color: cadetblue;
-    background-color: none;
+    color: black;
+    background-color: snow;
     background-image: none;
 }
 
 button:hover{
-    opacity: 60%;
+    opacity: 85%;
 }
 
 
@@ -74,10 +79,23 @@ button:hover{
         justify-content: center;
         padding: 0 3%;
     }
+
+    .hero-text>h2{
+        color: snow;
+        font-size: 3rem;
+    }
+
+    .hero-text>h3{
+        color:snow;
+    font-size: 2.1rem;
+    }
     form{
+        text-align: left;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        justify-content: center;
+        align-items: center;
         /* width: 100%; */
     }
     #name{
@@ -86,6 +104,13 @@ button:hover{
     input{    
     width: 20rem;
     height: 4rem;
+    }
+
+    button{
+        width: 20rem;
+        height: 3rem;
+        background-color: #f34e3a;
+        color: snow;
     }
 
   }
