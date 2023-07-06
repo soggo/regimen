@@ -12,7 +12,7 @@ body{
 }
 
 .hero-text>h2{
-    color: snow;
+    color:#cfcfcf;
     font-size: 4rem;
 }
 .hidden{
@@ -24,7 +24,7 @@ body{
     color: snow;
 }
 .hero-text>h3{
-    color: snow;
+    color:#cfcfcf;
     font-size: 3rem;
 }
 form{
@@ -49,9 +49,9 @@ input:focus{
     outline: none;
 }
 
-.red{
+/* .red{
     color:  #f34e3a;;
-}
+} */
 
 button{
     border: none;
@@ -60,8 +60,8 @@ button{
     border-radius: 35px;
     font-size: large;
     font-weight:700;
-    background-color: #f34e3a;
-    color: snow;
+    background-color: #cfcfcf;
+    color: black;
 
 }
 
@@ -86,12 +86,12 @@ button:hover{
     }
 
     .hero-text>h2{
-        color: snow;
+      
         font-size: 3rem;
     }
 
     .hero-text>h3{
-        color:snow;
+       
     font-size: 2.1rem;
     }
     form{
@@ -114,8 +114,6 @@ button:hover{
     button{
         width: 20rem;
         height: 3rem;
-        background-color: #f34e3a;
-        color: snow;
     }
 
   }
