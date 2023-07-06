@@ -7,7 +7,7 @@ document.getElementById("emailForm").addEventListener("submit", function(event) 
     form.classList.add("hidden");
   
     // Remove "hidden" class from the modal
-    let moda = document.getElementsByClassName("moda");
+    let moda = document.querySelector(".moda");
     moda.classList.remove("hidden");
     
     // Send a POST request to the server-side script
