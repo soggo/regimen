@@ -45,6 +45,9 @@ input{
     text-align: center;
     background-color: snow
 }
+input:focus{
+    outline: none;
+}
 
 .red{
     color:  #f34e3a;;
@@ -59,13 +62,14 @@ button{
     font-weight:700;
     background-color: #f34e3a;
     color: snow;
+
 }
+
 
 button:hover{
-    opacity: 80%;
+    opacity: 85%;
     color: black;
 }
-
 
 @media only screen and  (max-width: 767px) {
     /* CSS styles for big screen phones */
