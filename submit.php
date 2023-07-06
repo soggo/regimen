@@ -1,5 +1,5 @@
 <?php
-$servername = "srv582.hstgr.io"; 
+$servername = "31.170.164.51"; 
 $username = "koded";
 $password = "Sogo@1234";
 $dbname = "storage";
