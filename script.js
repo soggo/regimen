@@ -1,4 +1,3 @@
-// Listen for the form submission event
 document.getElementById("emailForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the form from submitting normally
   
@@ -18,6 +17,13 @@ document.getElementById("emailForm").addEventListener("submit", function(event) 
       document.getElementById("responseMessage").innerHTML = data;
       document.getElementById("responseMessage").style.display = "block";
       form.reset(); // Reset the form fields
+  
+      // Add "hidden" class to the form
+      form.classList.add("hidden");
+  
+      // Remove "hidden" class from the modal
+      let moda = document.getElementsByClassName("moda");
+      moda.classList.remove("hidden");
     })
     .catch(function(error) {
       console.log("Error:", error);

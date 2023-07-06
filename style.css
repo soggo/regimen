@@ -14,7 +14,13 @@ body{
     color: white;
     font-size: 4rem;
 }
+.hidden{
+    display: none;
+}
 
+.moda{
+    color: black;
+}
 .hero-text>h3{
     color: rgb(250, 237, 237);
 font-size: 3rem;
