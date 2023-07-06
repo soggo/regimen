@@ -51,18 +51,18 @@ input{
 
 button{
     border: none;
-    width: 9rem;
+    width: 10rem;
     height: 4rem;
     border-radius: 35px;
     font-size: large;
     font-weight:700;
-    color: black;
-    background-color: snow;
-    background-image: none;
+    background-color: #f34e3a;
+    color: snow;
 }
 
 button:hover{
-    opacity: 85%;
+    opacity: 80%;
+    color: black;
 }
 
 
