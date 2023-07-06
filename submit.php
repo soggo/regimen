@@ -1,5 +1,5 @@
 <?php
-$servername = "regimen.kaicho.org"; 
+$servername = "srv582.hstgr.io"; 
 $username = "koded";
 $password = "Sogo@1234";
 $dbname = "storage";
