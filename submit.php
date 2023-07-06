@@ -1,8 +1,8 @@
 <?php
 $servername = "regimen.kaicho.org"; 
-$username = "sogo";
+$username = "koded";
 $password = "Sogo@1234";
-$dbname = "records";
+$dbname = "storage";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 $name = $_POST['name']; 
 $email = $_POST['email'];
 
-$sql = "INSERT INTO regrec (name, email) 
+$sql = "INSERT INTO regment (name, email) 
 VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === TRUE) {
