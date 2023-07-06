@@ -1,7 +1,7 @@
 <?php
 $servername = "regimen.kaicho.org"; 
 $username = "sogo";
-$password = "Sogo@123";
+$password = "Ss12345678S";
 $dbname = "records";
 
 // Create connection
