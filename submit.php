@@ -1,5 +1,5 @@
 <?php
-$servername = "server582"; 
+$servername = "regimen.kaicho.org"; 
 $username = "sogo";
 $password = "Sogo@123";
 $dbname = "records";
