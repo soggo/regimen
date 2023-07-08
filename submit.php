@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 $name = $_POST['name']; 
 $email = $_POST['email'];
 
-$sql = "INSERT INTO regment (name, email) 
+$sql = "INSERT INTO emails (name, email) 
 VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === TRUE) {
